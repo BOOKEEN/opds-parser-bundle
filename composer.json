@@ -5,10 +5,13 @@
   "keywords": ["OPDS", "symfony", "bookeen"],
   "require": {
     "php": ">=5.5.9",
-    "bookeen/opds-parser": "0.0.*"
+    "bookeen/opds-parser": "0.1.*",
+    "symfony/framework-bundle": "~3.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^5"
+    "phpunit/phpunit": "^5",
+    "symfony/console": "~3.0",
+    "symfony/yaml": "~3.0"
   },
   "authors": [
     {
@@ -18,7 +21,13 @@
   ],
   "autoload": {
     "psr-4": {
-      "OpdsParserBundle\\": "src"
+      "OpdsParser\\OpdsBundle\\": ""
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "ssh://git@intra.bookeen.com:7999/web/opds-parser.git"
+    }
+  ]
 }
