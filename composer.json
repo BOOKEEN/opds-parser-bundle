@@ -1,5 +1,5 @@
 {
-  "name": "bookeen/opds-parserbundle",
+  "name": "bookeen/opds-parser-bundle",
   "description": "Symfony Parser OPDS XML bundle",
   "type": "symfony-bundle",
   "keywords": ["OPDS", "symfony", "bookeen"],
