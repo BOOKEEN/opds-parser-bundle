@@ -6,12 +6,11 @@
   "require": {
     "php": ">=5.5.9",
     "bookeen/opds-parser": "0.1.*",
-    "symfony/framework-bundle": "~3.0"
+    "symfony/framework-bundle": "~3.4"
   },
   "require-dev": {
     "phpunit/phpunit": "^5",
-    "symfony/console": "~3.0",
-    "symfony/yaml": "~3.0"
+    "symfony/console": "~3.4"
   },
   "authors": [
     {

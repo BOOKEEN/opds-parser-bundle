@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b158dab73394151aa631c4c963cf8bb",
+    "content-hash": "906e487a13d78c374e42a252a6e93cd4",
     "packages": [
         {
             "name": "bookeen/opds-parser",
