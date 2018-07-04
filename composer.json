@@ -3,6 +3,7 @@
   "description": "Symfony Parser OPDS XML bundle",
   "type": "symfony-bundle",
   "keywords": ["OPDS", "symfony", "bookeen"],
+  "license": "MIT",
   "require": {
     "php": ">=5.5.9",
     "bookeen/opds-parser": "0.1.*",
@@ -27,6 +28,18 @@
     {
       "type": "vcs",
       "url": "ssh://git@intra.bookeen.com:7999/web/opds-parser.git"
+    },
+    {
+      "type":"package",
+      "package":{
+        "name":"bookeen/opds-parser-bundle",
+        "version":"master",
+        "source":{
+          "url":"ssh://git@intra.bookeen.com:7999/web/opds-bundle.git",
+          "type":"git",
+          "reference":"master"
+        }
+      }
     }
   ]
 }
