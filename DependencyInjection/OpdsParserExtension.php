@@ -20,12 +20,4 @@ class OpdsParserExtension extends Extension
         );
         $loader->load('services.xml');
     }
-
-    /**
-     * @inheritDoc
-     */
-    public function getNamespace()
-    {
-        return 'http://bookeen.com/schema/dic/odpsparser';
-    }
 }
