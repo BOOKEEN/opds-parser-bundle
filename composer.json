@@ -1,12 +1,12 @@
 {
-  "name": "bookeen/opds-parser-bundle",
+  "name": "bookeenweb/opds-parser-bundle",
   "description": "Symfony Parser OPDS XML bundle",
   "type": "symfony-bundle",
   "keywords": ["OPDS", "symfony", "bookeen"],
   "license": "MIT",
   "require": {
     "php": ">=5.5.9",
-    "bookeen/opds-parser": "~1.0",
+    "bookeenweb/opds-parser": "~1.0",
     "symfony/framework-bundle": "~3.4"
   },
   "require-dev": {
@@ -23,11 +23,5 @@
     "psr-4": {
       "OpdsParser\\OpdsBundle\\": ""
     }
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/BOOKEEN/opds-parser.git"
-    }
-  ]
+  }
 }
